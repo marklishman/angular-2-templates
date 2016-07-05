@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 declare var module: any;
 
@@ -7,4 +7,4 @@ declare var module: any;
     selector: 'external-relative',
     templateUrl: './external-template.html'
 })
-export class ExternalRelativeComponent {}
+export class RelativeComponent {}
