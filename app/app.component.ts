@@ -1,8 +1,4 @@
-import { Component } from '@angular/core';
-
- import { InlineComponent } from "./templates/inline.component";
-import { ExternalComponent } from "./templates/external.component";
-import { RelativeComponent } from "./templates/relative.component";
+import { Component } from "@angular/core";
 
 @Component({
     selector: 'app',
@@ -11,11 +7,6 @@ import { RelativeComponent } from "./templates/relative.component";
         <hr/>
         <external-template></external-template>
         <hr/>
-        <external-relative></external-relative>`,
-    directives: [
-        InlineComponent,
-        ExternalComponent,
-        RelativeComponent,
-    ]
+        <external-relative></external-relative>`
 })
 export class AppComponent {}
